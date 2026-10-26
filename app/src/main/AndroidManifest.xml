@@ -4,7 +4,6 @@
 
     <application
         android:allowBackup="true"
-        android:extractNativeLibs="true"
         android:label="Media Downloader"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">

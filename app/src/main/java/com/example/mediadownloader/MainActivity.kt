@@ -71,7 +71,7 @@ fun DownloaderScreen() {
 
             selectedDirectoryUri = it
             val docFile = DocumentFile.fromTreeUri(context, it)
-            selectedDirectoryName = docFile?.name ?: it.LastPathSegment ?: "Custom Folder"
+            selectedDirectoryName = docFile?.name ?: it.lastPathSegment ?: "Custom Folder"
         }
     }
 
